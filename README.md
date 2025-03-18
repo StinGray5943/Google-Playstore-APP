@@ -1,5 +1,6 @@
 # Google Play Store App Analysis
- ##📌 Project Overview
+
+ ## Project Overview
 Imagine walking into a vast digital marketplace—millions of apps, billions of downloads, and countless user experiences. The Google Play Store is more than just a collection of apps; it’s a dynamic ecosystem where user engagement, ratings, and revenue define success.
 
 In this Power BI project, I built an interactive dashboard that dives into key metrics, revealing insights into app performance, user sentiment, revenue trends, and engagement levels. With bookmarks, tooltips, and drill-through pages, navigating insights has never been smoother.
@@ -123,16 +124,23 @@ Total_Installs = SUM(googleplaystore[Installs]) ```
 ```   ✅ Revenue Per User Calculation
 
 
-Revenue_Per_User = DIVIDE(SUM(googleplaystore[Revenue]), SUM(googleplaystore[Active Users]), 0) ```
+Revenue_Per_User = DIVIDE(SUM(googleplaystore[Revenue]), SUM(googleplaystore[Active Users]), 0)
+ ```
 
 
 ```   ✅ Sentiment Count Calculation
 
-Sentiment_Count = COUNT(googleplaystore_user_reviews[Sentiment]) ```
+Sentiment_Count = COUNT(googleplaystore_user_reviews[Sentiment])
+
+ ```
 
 
 
-## Interactivity Features
+
+
+
+
+##  Interactivity Features
 📍 Bookmarks & Navigation → Easily switch between different analysis pages.
 
 📍 Tooltips → Hover over charts to see hidden insights (e.g., revenue per app).
