@@ -115,9 +115,11 @@ Avg_Rating = AVERAGE(googleplaystore[Rating])
 
 ```
 
+
  ```  ✅ Total Installs Calculation
 
-Total_Installs = SUM(googleplaystore[Installs]) ```
+Total_Installs = SUM(googleplaystore[Installs]) 
+ ```
 
 
 
