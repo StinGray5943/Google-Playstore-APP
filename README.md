@@ -149,6 +149,9 @@ Sentiment_Count = COUNT(googleplaystore_user_reviews[Sentiment])
 
 
 📍 Slicers → Filter data by category, price type (free/paid), sentiment, and year.
+![Screenshot (35)](https://github.com/user-attachments/assets/282e061b-d451-4c97-b49f-fd9c219ead77)
+![Screenshot (36)](https://github.com/user-attachments/assets/9b50c2fc-f5fe-48d5-865f-6b72ea71a99c)
+![Screenshot (37)](https://github.com/user-attachments/assets/cd17ecad-9f7a-4333-9f2d-64d6c5c8860d)
 
 
 ### 🔍 Final Insights & Takeaways
